@@ -6,7 +6,8 @@ bool cek_login(string username, string password) {
 }
 
 bool login() {
-    string username, password;
+    string username;
+    string password;
     int percobaan = 0;
 
     while (percobaan < 3) {
